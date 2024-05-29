@@ -2,7 +2,7 @@
 
 ## Database Class
 ### Initialization:
- o	Establishes a connection to the SQLite database.Creates a cursor for executing SQL commands.Creates the employees table if it does not exist.
+ o	Establishes a connection to the SQLite database. Creates a cursor for executing SQL commands. Creates the employees table if it does not exist.
 ### Insert Function:
  o	Inserts a new employee record into the database.
 ### Fetch Function:
@@ -17,9 +17,9 @@
 ### Variables:
  o	Defines StringVar variables for storing employee details such as name, age, date of joining (DOJ), gender, email, and contact.
 ### Entries Frame:
- o	Creates a frame for input fields.Adds labels and entry widgets for employee details.Adds a combobox for selecting gender.Adds a text widget for entering the address.
+ o	Creates a frame for input fields. Adds labels and entry widgets for employee details. Adds a combobox for selecting gender. Adds a text widget for entering the address.
 ### Button Frame:
- o	Creates a frame for action buttons.Adds buttons for adding, updating, deleting, and clearing employee details.
+ o	Creates a frame for action buttons. Adds buttons for adding, updating, deleting, and clearing employee details.
 ### Table Frame:
  o	Creates a frame for displaying employee records in a treeview. Configures the treeview style. Sets up columns and headings for the treeview. Binds a function to handle row selection in the treeview.
 ## Functions
